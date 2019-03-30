@@ -1,0 +1,697 @@
+2019-01-23 19:02:49,922 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 19:02:49,924 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 19:02:49,929 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 19:02:50,507 DEBUG U.UI [main] Start UI.
+2019-01-23 19:03:11,726 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 19:03:11,727 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 19:03:11,735 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 19:03:32,935 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 19:03:32,936 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 19:03:32,936 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 19:03:41,993 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 19:03:41,994 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 19:03:41,995 DEBUG N.C.RunningClient [Thread-4] Spojení s clientem běží
+2019-01-23 19:03:47,820 DEBUG N.C.CommandStartCommunication [Thread-4] Úspěšně přihlášen client: aa
+2019-01-23 19:04:10,048 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: ss
+2019-01-23 19:04:19,085 DEBUG N.C.CommandStartCommunication [Thread-2] Přihlášení clienta bylo neúspěšné: aa
+2019-01-23 19:04:35,650 DEBUG N.C.CommandStartCommunication [Thread-2] Přihlášení clienta bylo neúspěšné: dd
+2019-01-23 19:04:42,598 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: ff
+2019-01-23 19:04:45,479 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ff
+2019-01-23 19:04:46,033 DEBUG N.C.CommandStartSearching [Thread-4] Přidání clienta do front na hru: aa
+2019-01-23 19:04:46,038 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: aaxff
+2019-01-23 19:04:46,054 DEBUG N.M.GameCommucation [Thread-6] Spouští se komunikace true
+2019-01-23 19:04:46,056 DEBUG N.M.Game [Thread-5] Úspěšné spuštění threadů pro komunikaci mezi clienty. aa ff
+2019-01-23 19:04:46,072 DEBUG N.M.GameCommucation [Thread-7] Spouští se komunikace true
+2019-01-23 19:05:07,133 DEBUG N.M.Game [Thread-5] Úspěšné ukončení threadu pro komunikaci mezi klienty při hře a odesílání dat.  aa ff
+2019-01-23 19:05:07,136 DEBUG N.C.CommandEndGame [Thread-2] Konec hry pro: ff , aa a ukončení příslušného threadu.
+2019-01-23 19:05:21,771 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ff
+2019-01-23 19:05:22,391 DEBUG N.C.CommandStartSearching [Thread-4] Přidání clienta do front na hru: aa
+2019-01-23 19:05:22,392 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ffxaa
+2019-01-23 19:05:22,394 DEBUG N.M.GameCommucation [Thread-9] Spouští se komunikace true
+2019-01-23 19:05:22,394 DEBUG N.M.Game [Thread-8] Úspěšné spuštění threadů pro komunikaci mezi clienty. ff aa
+2019-01-23 19:05:22,395 DEBUG N.M.GameCommucation [Thread-10] Spouští se komunikace true
+2019-01-23 19:06:05,444 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 19:06:05,460 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 19:06:05,461 DEBUG N.C.RunningClient [Thread-11] Spojení s clientem běží
+2019-01-23 19:06:10,620 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 19:06:10,624 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 19:06:10,625 DEBUG N.C.RunningClient [Thread-12] Spojení s clientem běží
+2019-01-23 19:06:14,524 DEBUG N.C.CommandStartCommunication [Thread-12] Přihlášení clienta bylo neúspěšné: aa
+2019-01-23 19:06:17,935 DEBUG N.C.CommandStartCommunication [Thread-12] Přihlášení clienta bylo neúspěšné: ss
+2019-01-23 19:06:22,649 DEBUG N.C.CommandStartCommunication [Thread-12] Přihlášení clienta bylo neúspěšné: ff
+2019-01-23 19:07:30,577 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 19:07:30,579 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 19:07:30,584 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 19:07:31,140 DEBUG U.UI [main] Start UI.
+2019-01-23 19:07:37,514 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 19:07:37,514 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 19:07:37,522 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 19:07:42,346 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 19:07:42,347 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 19:07:42,348 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 19:07:46,972 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 19:07:46,976 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 19:07:46,977 DEBUG N.C.RunningClient [Thread-4] Spojení s clientem běží
+2019-01-23 19:07:50,890 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: aa
+2019-01-23 19:07:54,050 DEBUG N.C.CommandStartCommunication [Thread-4] Úspěšně přihlášen client: ss
+2019-01-23 19:08:07,581 DEBUG N.C.CommandStartCommunication [Thread-2] Přihlášení clienta bylo neúspěšné: dd
+2019-01-23 19:08:13,795 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: ff
+2019-01-23 19:08:14,504 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ff
+2019-01-23 19:08:15,098 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: aa
+2019-01-23 19:08:15,102 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: aaxff
+2019-01-23 19:08:15,133 DEBUG N.M.GameCommucation [Thread-7] Spouští se komunikace true
+2019-01-23 19:08:15,137 DEBUG N.M.GameCommucation [Thread-6] Spouští se komunikace true
+2019-01-23 19:08:15,146 DEBUG N.M.Game [Thread-5] Úspěšné spuštění threadů pro komunikaci mezi clienty. aa ff
+2019-01-23 20:16:29,105 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 20:16:29,108 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 20:16:29,115 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 20:16:29,805 DEBUG U.UI [main] Start UI.
+2019-01-23 20:16:41,597 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 20:16:41,608 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 20:16:41,622 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 20:16:49,819 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 20:16:49,820 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 20:16:49,821 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 20:16:55,882 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 20:16:55,886 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 20:16:55,887 DEBUG N.C.RunningClient [Thread-4] Spojení s clientem běží
+2019-01-23 20:16:56,105 DEBUG N.C.CommandStartCommunication [Thread-4] Přihlášení clienta bylo neúspěšné: a
+2019-01-23 20:17:00,714 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: aa
+2019-01-23 20:17:05,377 DEBUG N.C.CommandStartCommunication [Thread-4] Úspěšně přihlášen client: ss
+2019-01-23 20:17:11,283 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: ff
+2019-01-23 20:17:16,297 DEBUG N.C.CommandMessage [Thread-4] Prijata zprava z chatu a rezeslána všem
+2019-01-23 20:17:19,876 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ff
+2019-01-23 20:17:20,842 DEBUG N.C.CommandStartSearching [Thread-4] Přidání clienta do front na hru: ss
+2019-01-23 20:17:50,161 DEBUG N.C.CommandStartSearching [Thread-2] Odebrání clienta z fronty na hru: ff
+2019-01-23 20:17:51,301 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ff
+2019-01-23 20:17:51,868 DEBUG N.C.CommandStartSearching [Thread-2] Odebrání clienta z fronty na hru: ff
+2019-01-23 21:07:47,283 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: aa
+2019-01-23 21:09:30,287 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 21:09:30,290 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 21:09:30,322 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 21:09:31,575 DEBUG U.UI [main] Start UI.
+2019-01-23 21:09:33,168 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:09:33,176 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:09:33,201 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 21:09:34,338 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:09:34,339 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:09:34,339 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 21:09:38,045 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: aa
+2019-01-23 21:09:42,172 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: ss
+2019-01-23 21:09:43,870 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ss
+2019-01-23 21:09:53,641 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: aa
+2019-01-23 21:10:09,275 DEBUG N.C.CommandMessage [Thread-2] Prijata zprava z chatu a rezeslána všem
+2019-01-23 21:14:54,323 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 21:14:54,325 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 21:14:54,330 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 21:14:54,899 DEBUG U.UI [main] Start UI.
+2019-01-23 21:15:04,279 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:15:04,280 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:15:04,284 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 21:15:10,686 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:15:10,687 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:15:10,687 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 21:15:14,189 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: aa
+2019-01-23 21:15:23,745 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: ss
+2019-01-23 21:15:26,998 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: aa
+2019-01-23 21:15:27,486 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ss
+2019-01-23 21:15:27,493 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ssxaa
+2019-01-23 21:17:40,343 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 21:17:40,345 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 21:17:40,350 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 21:17:40,937 DEBUG U.UI [main] Start UI.
+2019-01-23 21:17:48,603 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:17:48,603 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:17:48,617 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 21:17:54,081 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:17:54,082 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:17:54,082 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 21:17:58,832 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: aa
+2019-01-23 21:18:02,663 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: ss
+2019-01-23 21:18:04,143 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: aa
+2019-01-23 21:18:04,598 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: ss
+2019-01-23 21:18:04,602 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ssxaa
+2019-01-23 21:20:00,045 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 21:20:00,048 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 21:20:00,054 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 21:20:00,610 DEBUG U.UI [main] Start UI.
+2019-01-23 21:20:10,462 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:20:10,472 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:20:10,483 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 21:20:10,983 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:20:10,985 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:20:10,985 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 21:20:14,848 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: aa
+2019-01-23 21:20:16,935 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: ss
+2019-01-23 21:20:18,641 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: aa
+2019-01-23 21:20:19,289 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: ss
+2019-01-23 21:20:19,293 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ssxaa
+2019-01-23 21:23:30,066 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 21:23:30,068 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 21:23:30,073 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 21:23:30,632 DEBUG U.UI [main] Start UI.
+2019-01-23 21:23:37,643 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:23:37,644 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:23:37,648 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 21:23:41,603 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:23:41,604 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:23:41,604 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 21:23:46,732 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: aa
+2019-01-23 21:23:50,704 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: ss
+2019-01-23 21:23:52,248 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: aa
+2019-01-23 21:23:52,768 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ss
+2019-01-23 21:23:52,770 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ssxaa
+2019-01-23 21:24:36,985 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 21:24:36,986 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 21:24:36,991 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 21:24:37,569 DEBUG U.UI [main] Start UI.
+2019-01-23 21:24:45,166 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 21:24:45,168 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 21:24:45,174 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 21:24:45,783 DEBUG U.UI [main] Start UI.
+2019-01-23 21:24:57,767 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:24:57,768 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:24:57,772 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 21:25:01,723 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:25:01,724 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:25:01,725 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 21:25:04,553 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: aa
+2019-01-23 21:25:08,664 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: ss
+2019-01-23 21:25:09,503 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ss
+2019-01-23 21:25:09,982 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: aa
+2019-01-23 21:25:09,983 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ssxaa
+2019-01-23 21:25:14,180 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:25:16,264 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:25:23,648 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:25:25,266 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:25:26,055 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:28:22,522 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 21:28:22,525 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 21:28:22,530 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 21:28:23,193 DEBUG U.UI [main] Start UI.
+2019-01-23 21:29:04,775 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:29:04,784 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:29:04,811 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 21:29:07,241 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:29:07,248 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:29:07,249 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 21:29:09,829 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:29:09,832 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:29:09,832 DEBUG N.C.RunningClient [Thread-4] Spojení s clientem běží
+2019-01-23 21:29:11,439 DEBUG N.C.CommandStartCommunication [Thread-4] Úspěšně přihlášen client: ss
+2019-01-23 21:29:14,067 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: aa
+2019-01-23 21:29:21,478 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: ff
+2019-01-23 21:29:22,171 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ff
+2019-01-23 21:29:22,630 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: aa
+2019-01-23 21:29:22,631 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: aaxff
+2019-01-23 21:29:25,831 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ff
+2019-01-23 21:29:26,570 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ff
+2019-01-23 21:29:27,396 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ff
+2019-01-23 21:29:28,953 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:29:29,633 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:29:30,893 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:29:32,635 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ff
+2019-01-23 21:29:33,808 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ff
+2019-01-23 21:41:49,512 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 21:41:49,514 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 21:41:49,519 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 21:41:50,092 DEBUG U.UI [main] Start UI.
+2019-01-23 21:41:55,985 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:41:55,991 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:41:55,994 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 21:42:02,212 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:42:02,213 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:42:02,214 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 21:42:07,622 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: aa
+2019-01-23 21:42:10,634 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: ss
+2019-01-23 21:42:11,386 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: ss
+2019-01-23 21:42:11,959 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: aa
+2019-01-23 21:42:11,961 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ssxaa
+2019-01-23 21:42:21,264 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-23 21:42:24,193 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-23 21:42:25,973 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-23 21:42:27,766 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-23 21:42:28,446 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-23 21:42:29,341 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-23 21:42:30,591 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-23 21:42:31,128 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-23 21:42:32,317 DEBUG N.C.CommandEndGame [Thread-3] Neco se stalo
+2019-01-23 21:42:32,322 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :Network.Client.GameClient@26cffab
+2019-01-23 21:42:32,338 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-23 21:49:10,988 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 21:49:10,990 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 21:49:10,994 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 21:49:11,568 DEBUG U.UI [main] Start UI.
+2019-01-23 21:49:19,184 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:49:19,186 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:49:19,194 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 21:49:25,463 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:49:25,468 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:49:25,477 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 21:49:27,569 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:49:27,570 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:49:27,572 DEBUG N.C.RunningClient [Thread-4] Spojení s clientem běží
+2019-01-23 21:49:30,769 DEBUG N.C.CommandStartCommunication [Thread-4] Úspěšně přihlášen client: ff
+2019-01-23 21:49:33,019 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: aa
+2019-01-23 21:49:39,952 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: ss
+2019-01-23 21:49:41,871 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ss
+2019-01-23 21:49:42,385 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: aa
+2019-01-23 21:49:42,387 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ssxaa
+2019-01-23 21:49:45,155 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:49:45,841 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:49:47,453 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:49:48,667 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:49:49,297 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:49:50,854 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:49:52,336 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:49:52,879 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:49:53,602 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:49:54,502 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:49:55,290 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:49:56,199 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:49:56,955 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:49:57,855 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:49:58,743 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:51:20,835 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 21:51:20,838 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 21:51:20,843 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 21:51:21,417 DEBUG U.UI [main] Start UI.
+2019-01-23 21:51:29,660 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:51:29,663 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:51:29,691 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 21:51:32,180 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:51:32,180 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:51:32,181 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 21:51:33,625 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:51:33,632 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:51:33,633 DEBUG N.C.RunningClient [Thread-4] Spojení s clientem běží
+2019-01-23 21:51:38,723 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: aa
+2019-01-23 21:51:41,809 DEBUG N.C.CommandStartCommunication [Thread-4] Úspěšně přihlášen client: ss
+2019-01-23 21:51:45,749 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: ff
+2019-01-23 21:51:47,896 DEBUG N.C.CommandStartSearching [Thread-4] Přidání clienta do front na hru: ss
+2019-01-23 21:51:48,586 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: ff
+2019-01-23 21:51:48,587 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ssxff
+2019-01-23 21:51:51,665 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-23 21:51:52,207 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-23 21:51:53,107 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-23 21:51:54,030 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:51:54,538 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:51:55,736 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:51:56,596 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-23 21:51:57,112 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-23 21:51:57,735 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-23 21:51:58,342 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:51:59,184 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:51:59,839 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :ff
+2019-01-23 21:51:59,839 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :ss
+2019-01-23 21:51:59,862 ERROR N.C.CommandField [Thread-4] Nenalezen hrající hráč s tímto jménem: ff
+2019-01-23 21:54:25,336 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 21:54:25,338 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 21:54:25,344 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 21:54:25,890 DEBUG U.UI [main] Start UI.
+2019-01-23 21:54:32,677 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:54:32,692 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:54:32,698 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 21:54:33,936 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:54:33,940 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:54:33,941 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 21:54:36,999 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: aa
+2019-01-23 21:54:39,982 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: ss
+2019-01-23 21:54:42,904 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: ss
+2019-01-23 21:54:43,270 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: aa
+2019-01-23 21:54:43,271 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ssxaa
+2019-01-23 21:54:45,532 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-23 21:54:46,244 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-23 21:54:48,226 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-23 21:54:50,281 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-23 21:54:50,763 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-23 21:54:51,339 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-23 21:54:52,074 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-23 21:54:52,534 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-23 21:54:56,164 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :ss
+2019-01-23 21:54:56,165 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :aa
+2019-01-23 21:54:56,186 ERROR N.C.CommandField [Thread-2] Nenalezen hrající hráč s tímto jménem: ss
+2019-01-23 21:54:56,190 DEBUG N.C.CommandEndGame [Thread-3] Neco se stalo
+2019-01-23 21:54:56,190 DEBUG N.C.CommandEndGame [Thread-3] Neco se stalo
+2019-01-23 21:54:56,191 ERROR N.C.CommandField [Thread-3] Nenalezen hrající hráč s tímto jménem: aa
+2019-01-23 21:56:08,802 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 21:56:08,808 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 21:56:08,848 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 21:56:09,642 DEBUG U.UI [main] Start UI.
+2019-01-23 21:56:11,000 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:56:11,009 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:56:11,013 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 21:56:18,034 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:56:18,035 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:56:18,035 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 21:56:23,002 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: aa
+2019-01-23 21:56:24,956 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: ss
+2019-01-23 21:56:26,997 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: aa
+2019-01-23 21:56:27,571 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ss
+2019-01-23 21:56:27,577 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ssxaa
+2019-01-23 21:56:31,258 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:56:31,945 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:56:32,760 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:56:34,123 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:56:34,637 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:56:35,504 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:56:36,565 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:56:37,122 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:56:38,020 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-23 21:56:39,051 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:56:41,202 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 21:56:42,284 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :aa
+2019-01-23 21:56:42,285 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :ss
+2019-01-23 21:56:42,321 ERROR N.C.CommandField [Thread-3] Nenalezen hrající hráč s tímto jménem: ss
+2019-01-23 21:56:42,321 ERROR N.C.CommandField [Thread-2] Nenalezen hrající hráč s tímto jménem: aa
+2019-01-23 21:57:49,673 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 21:57:49,680 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 21:57:49,681 DEBUG N.C.RunningClient [Thread-4] Spojení s clientem běží
+2019-01-23 21:57:52,461 DEBUG N.C.CommandStartCommunication [Thread-4] Úspěšně přihlášen client: ff
+2019-01-23 21:58:01,012 DEBUG N.C.CommandMessage [Thread-4] Prijata zprava z chatu a rezeslána všem
+2019-01-23 21:58:05,863 DEBUG N.C.CommandMessage [Thread-2] Prijata zprava z chatu a rezeslána všem
+2019-01-23 21:58:09,075 DEBUG N.C.CommandMessage [Thread-3] Prijata zprava z chatu a rezeslána všem
+2019-01-23 21:58:23,108 DEBUG N.C.CommandStartSearching [Thread-4] Přidání clienta do front na hru: ff
+2019-01-23 21:58:23,740 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ss
+2019-01-23 21:58:23,741 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ffxss
+2019-01-23 21:58:26,531 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-01-23 21:58:26,888 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-01-23 21:58:27,958 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-01-23 21:58:29,255 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ss
+2019-01-23 21:58:29,852 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ss
+2019-01-23 21:58:30,656 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ss
+2019-01-23 21:58:32,110 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-01-23 21:58:33,367 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-01-23 21:58:34,253 DEBUG N.C.CommandEndGame [Thread-2] Úspěšně ukončena hra pro :ss
+2019-01-23 21:58:34,253 DEBUG N.C.CommandEndGame [Thread-2] Úspěšně ukončena hra pro :ff
+2019-01-23 21:58:34,270 ERROR N.C.CommandField [Thread-4] Nenalezen hrající hráč s tímto jménem: ss
+2019-01-23 21:58:34,273 ERROR N.C.CommandField [Thread-2] Nenalezen hrající hráč s tímto jménem: ff
+2019-01-23 21:58:39,176 DEBUG N.C.CommandMessage [Thread-4] Prijata zprava z chatu a rezeslána všem
+2019-01-23 22:08:32,733 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 22:08:32,735 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 22:08:32,740 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 22:08:33,307 DEBUG U.UI [main] Start UI.
+2019-01-23 22:09:30,176 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 22:09:30,177 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 22:09:30,180 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 22:09:37,003 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 22:09:37,009 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 22:09:37,009 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 22:09:40,856 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 22:09:40,860 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 22:09:40,861 DEBUG N.C.RunningClient [Thread-4] Spojení s clientem běží
+2019-01-23 22:09:46,813 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: aa
+2019-01-23 22:09:48,829 DEBUG N.C.CommandStartCommunication [Thread-4] Úspěšně přihlášen client: ss
+2019-01-23 22:09:51,169 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: ff
+2019-01-23 22:09:57,428 DEBUG N.C.CommandMessage [Thread-3] Prijata zprava z chatu a rezeslána všem
+2019-01-23 22:09:59,390 DEBUG N.C.CommandStartSearching [Thread-4] Přidání clienta do front na hru: ss
+2019-01-23 22:10:00,070 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: aa
+2019-01-23 22:10:00,075 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ssxaa
+2019-01-23 22:10:02,545 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:10:03,163 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:10:04,626 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:10:06,322 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-23 22:10:06,768 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-23 22:10:07,624 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-23 22:10:08,536 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:10:09,147 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:10:09,829 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:10:10,539 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-23 22:10:11,363 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-23 22:10:13,295 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-23 22:10:14,022 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:10:17,667 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:10:18,723 DEBUG N.C.CommandEndGame [Thread-4] Úspěšně ukončena hra pro :ss
+2019-01-23 22:10:18,723 DEBUG N.C.CommandEndGame [Thread-4] Úspěšně ukončena hra pro :aa
+2019-01-23 22:10:18,756 ERROR N.C.CommandField [Thread-2] Nenalezen hrající hráč s tímto jménem: ss
+2019-01-23 22:10:18,767 ERROR N.C.CommandField [Thread-4] Nenalezen hrající hráč s tímto jménem: aa
+2019-01-23 22:10:23,231 DEBUG N.C.CommandMessage [Thread-2] Prijata zprava z chatu a rezeslána všem
+2019-01-23 22:10:45,917 ERROR N.C.RunningClient [Thread-2] Stracení komunikace s clientem: aa java.lang.NullPointerException
+2019-01-23 22:34:04,938 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-23 22:34:04,940 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-23 22:34:04,946 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-23 22:34:05,571 DEBUG U.UI [main] Start UI.
+2019-01-23 22:34:16,125 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 22:34:16,132 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 22:34:16,144 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-23 22:34:18,278 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 22:34:18,279 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 22:34:18,280 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-23 22:34:19,325 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-23 22:34:19,326 DEBUG N.Network [Thread-1] Client prijat
+2019-01-23 22:34:19,326 DEBUG N.C.RunningClient [Thread-4] Spojení s clientem běží
+2019-01-23 22:34:26,363 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: aa
+2019-01-23 22:34:30,715 DEBUG N.C.CommandStartCommunication [Thread-4] Úspěšně přihlášen client: ss
+2019-01-23 22:34:35,830 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: ff
+2019-01-23 22:34:42,323 DEBUG N.C.CommandMessage [Thread-4] Prijata zprava z chatu a rezeslána všem
+2019-01-23 22:34:44,452 DEBUG N.C.CommandStartSearching [Thread-4] Přidání clienta do front na hru: ss
+2019-01-23 22:34:45,992 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: aa
+2019-01-23 22:34:45,993 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ssxaa
+2019-01-23 22:34:51,865 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:34:52,235 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:34:53,342 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:34:54,337 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 22:34:54,773 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 22:34:55,662 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 22:34:56,401 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:34:56,921 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:34:57,657 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:34:58,370 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 22:34:58,858 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 22:34:59,906 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 22:35:00,548 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:35:01,604 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:35:02,258 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-23 22:35:02,917 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 22:35:05,266 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-23 22:35:07,100 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :aa
+2019-01-23 22:35:07,100 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :ss
+2019-01-23 22:35:07,126 ERROR N.C.CommandField [Thread-3] Nenalezen hrající hráč s tímto jménem: ss
+2019-01-23 22:35:07,137 ERROR N.C.CommandField [Thread-4] Nenalezen hrající hráč s tímto jménem: aa
+2019-01-23 22:35:17,477 DEBUG N.C.CommandMessage [Thread-4] Prijata zprava z chatu a rezeslána všem
+2019-01-23 22:35:27,858 ERROR N.C.RunningClient [Thread-3] Stracení komunikace s clientem: aa java.lang.NullPointerException
+2019-01-24 01:14:11,685 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-24 01:14:11,687 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-24 01:14:11,693 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-24 01:14:12,044 DEBUG U.UI [main] Start UI.
+2019-01-24 01:14:33,607 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-24 01:14:33,613 DEBUG N.Network [Thread-1] Client prijat
+2019-01-24 01:14:33,658 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-24 01:14:35,612 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-24 01:14:35,612 DEBUG N.Network [Thread-1] Client prijat
+2019-01-24 01:14:35,617 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-24 01:14:36,426 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-24 01:14:36,428 DEBUG N.Network [Thread-1] Client prijat
+2019-01-24 01:14:36,428 DEBUG N.C.RunningClient [Thread-4] Spojení s clientem běží
+2019-01-24 01:15:04,549 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: aa
+2019-01-24 01:15:13,046 DEBUG N.C.CommandStartCommunication [Thread-4] Úspěšně přihlášen client: ff
+2019-01-24 01:15:20,983 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: ss
+2019-01-24 01:15:51,716 DEBUG N.C.CommandMessage [Thread-3] Prijata zprava z chatu a rezeslána všem
+2019-01-24 01:15:57,197 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: ss
+2019-01-24 01:16:00,475 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: aa
+2019-01-24 01:16:00,477 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ssxaa
+2019-01-24 01:16:07,726 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-24 01:16:09,126 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-24 01:16:11,735 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-24 01:16:13,387 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-24 01:16:14,067 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-24 01:16:16,094 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-24 01:16:17,200 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-24 01:16:18,647 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-01-24 01:16:22,713 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :ss
+2019-01-24 01:16:22,713 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :aa
+2019-01-24 01:16:22,736 ERROR N.C.CommandField [Thread-2] Nenalezen hrající hráč s tímto jménem: ss
+2019-01-24 01:16:22,743 ERROR N.C.CommandField [Thread-3] Nenalezen hrající hráč s tímto jménem: aa
+2019-01-24 01:16:34,650 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: aa
+2019-01-24 01:16:36,790 DEBUG N.C.CommandStartSearching [Thread-4] Přidání clienta do front na hru: ff
+2019-01-24 01:16:36,791 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: aaxff
+2019-01-24 01:16:41,014 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-01-24 01:16:41,876 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-01-24 01:16:43,094 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-01-24 01:16:44,322 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-24 01:16:44,988 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-24 01:16:46,127 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-24 01:16:47,969 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-01-24 01:16:49,273 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-01-24 01:16:50,296 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-01-24 01:16:51,572 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-24 01:16:52,458 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-24 01:16:53,235 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: aa
+2019-01-24 01:16:54,642 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-01-24 01:16:56,073 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-01-24 01:16:58,321 DEBUG N.C.CommandEndGame [Thread-2] Úspěšně ukončena hra pro :aa
+2019-01-24 01:16:58,322 DEBUG N.C.CommandEndGame [Thread-2] Úspěšně ukončena hra pro :ff
+2019-01-24 01:16:58,345 ERROR N.C.CommandField [Thread-4] Nenalezen hrající hráč s tímto jménem: aa
+2019-01-24 01:16:58,351 ERROR N.C.CommandField [Thread-2] Nenalezen hrající hráč s tímto jménem: ff
+2019-01-24 08:27:33,002 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-24 08:27:33,005 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-24 08:27:33,013 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-24 08:27:33,701 DEBUG U.UI [main] Start UI.
+2019-01-24 08:27:42,407 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-24 08:27:42,409 DEBUG N.Network [Thread-1] Client prijat
+2019-01-24 08:27:42,425 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-24 08:27:43,361 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-24 08:27:43,364 DEBUG N.Network [Thread-1] Client prijat
+2019-01-24 08:27:43,371 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-24 08:27:44,046 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-24 08:27:44,048 DEBUG N.Network [Thread-1] Client prijat
+2019-01-24 08:27:44,049 DEBUG N.C.RunningClient [Thread-4] Spojení s clientem běží
+2019-01-24 08:27:51,947 DEBUG N.C.CommandStartCommunication [Thread-4] Úspěšně přihlášen client: ss
+2019-01-24 08:27:59,489 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: aa
+2019-01-24 08:28:08,238 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: ff
+2019-01-24 08:28:09,650 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ff
+2019-01-24 08:28:10,881 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: aa
+2019-01-24 08:28:10,884 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: aaxff
+2019-01-24 08:28:16,777 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ff
+2019-01-24 08:28:17,585 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ff
+2019-01-24 08:28:19,202 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ff
+2019-01-24 08:28:20,616 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-24 08:28:21,367 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-24 08:28:23,205 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-24 08:28:24,750 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ff
+2019-01-24 08:28:25,737 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ff
+2019-01-24 08:28:26,544 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ff
+2019-01-24 08:28:27,674 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-24 08:28:28,944 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-24 08:28:29,765 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: aa
+2019-01-24 08:28:31,427 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ff
+2019-01-24 08:28:32,284 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ff
+2019-01-24 08:28:35,347 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :aa
+2019-01-24 08:28:35,348 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :ff
+2019-01-24 08:28:35,412 ERROR N.C.CommandField [Thread-3] Nenalezen hrající hráč s tímto jménem: ff
+2019-01-24 08:28:35,421 ERROR N.C.CommandField [Thread-2] Nenalezen hrající hráč s tímto jménem: aa
+2019-01-24 08:28:43,100 DEBUG N.C.CommandMessage [Thread-2] Prijata zprava z chatu a rezeslána všem
+2019-01-24 08:28:46,456 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: ff
+2019-01-24 08:28:48,197 DEBUG N.C.CommandStartSearching [Thread-4] Přidání clienta do front na hru: ss
+2019-01-24 08:28:48,198 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ffxss
+2019-01-24 08:29:02,442 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-24 08:29:03,767 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-24 08:29:05,312 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-24 08:29:06,588 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-24 08:29:07,669 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-24 08:29:08,405 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-24 08:29:09,932 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-24 08:29:10,990 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-24 08:29:11,841 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-24 08:29:13,380 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-24 08:29:14,620 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-24 08:29:15,426 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ss
+2019-01-24 08:29:16,896 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-24 08:29:18,934 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-24 08:29:21,212 DEBUG N.C.CommandEndGame [Thread-4] Úspěšně ukončena hra pro :ss
+2019-01-24 08:29:21,215 DEBUG N.C.CommandEndGame [Thread-4] Úspěšně ukončena hra pro :ff
+2019-01-24 08:29:21,248 ERROR N.C.CommandField [Thread-2] Nenalezen hrající hráč s tímto jménem: ss
+2019-01-24 08:29:21,250 ERROR N.C.CommandField [Thread-4] Nenalezen hrající hráč s tímto jménem: ff
+2019-01-24 10:06:09,087 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-24 10:06:09,092 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-24 10:06:09,144 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-24 10:06:10,535 DEBUG U.UI [main] Start UI.
+2019-01-24 10:06:38,243 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-24 10:06:38,248 DEBUG N.Network [Thread-1] Client prijat
+2019-01-24 10:06:38,304 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-24 10:06:41,108 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-24 10:06:41,114 DEBUG N.Network [Thread-1] Client prijat
+2019-01-24 10:06:41,118 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-24 10:07:42,210 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-24 10:07:42,215 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-24 10:07:42,229 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-24 10:07:42,927 DEBUG U.UI [main] Start UI.
+2019-01-24 10:07:52,944 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-24 10:07:52,946 DEBUG N.Network [Thread-1] Client prijat
+2019-01-24 10:07:52,954 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-24 10:08:04,536 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-24 10:08:04,542 DEBUG N.Network [Thread-1] Client prijat
+2019-01-24 10:08:04,543 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-24 10:10:42,267 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-01-24 10:10:42,271 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-01-24 10:10:42,281 DEBUG N.Network [Thread-1] Poslouchám
+2019-01-24 10:10:42,829 DEBUG U.UI [main] Start UI.
+2019-01-24 10:10:53,389 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-24 10:10:53,391 DEBUG N.Network [Thread-1] Client prijat
+2019-01-24 10:10:53,399 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-01-24 10:10:58,849 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-24 10:10:58,857 DEBUG N.Network [Thread-1] Client prijat
+2019-01-24 10:10:58,858 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-01-24 10:11:05,776 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-01-24 10:11:05,783 DEBUG N.Network [Thread-1] Client prijat
+2019-01-24 10:11:05,783 DEBUG N.C.RunningClient [Thread-4] Spojení s clientem běží
+2019-01-24 10:11:22,973 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: aa
+2019-01-24 10:11:28,951 DEBUG N.C.CommandStartCommunication [Thread-4] Úspěšně přihlášen client: ss
+2019-01-24 10:11:39,060 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: ff
+2019-01-24 10:23:14,107 DEBUG N.C.CommandMessage [Thread-3] Prijata zprava z chatu a rezeslána všem
+2019-01-24 10:28:05,197 DEBUG N.C.CommandMessage [Thread-3] Prijata zprava z chatu a rezeslána všem
+2019-01-24 10:28:08,070 DEBUG N.C.CommandStartSearching [Thread-4] Přidání clienta do front na hru: ss
+2019-01-24 10:28:10,607 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: ff
+2019-01-24 10:28:10,610 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ssxff
+2019-01-24 10:28:15,077 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-24 10:28:17,305 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-24 10:28:19,052 DEBUG N.C.CommandField [Thread-4] Přijato a odesláno pro: ff
+2019-01-24 10:28:20,683 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-24 10:28:21,508 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: ss
+2019-01-24 10:28:28,409 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :ff
+2019-01-24 10:28:28,409 DEBUG N.C.CommandEndGame [Thread-3] Úspěšně ukončena hra pro :ss
+2019-01-24 10:28:28,428 DEBUG N.C.CommandEndGame [Thread-3] Neco se stalo
+2019-01-24 10:28:28,429 DEBUG N.C.CommandEndGame [Thread-3] Neco se stalo
+2019-01-24 10:28:28,460 ERROR N.C.CommandField [Thread-3] Nenalezen hrající hráč s tímto jménem: ss
+2019-01-24 10:28:28,475 ERROR N.C.CommandField [Thread-4] Nenalezen hrající hráč s tímto jménem: ff
+2019-01-24 10:28:40,958 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: ff
+2019-01-24 10:28:43,017 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: aa
+2019-01-24 10:28:43,018 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: ffxaa
+2019-01-24 10:28:46,857 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-01-24 10:28:50,738 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-02-21 15:38:27,822 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-02-21 15:38:27,826 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-02-21 15:38:27,835 DEBUG N.Network [Thread-1] Poslouchám
+2019-02-21 15:38:28,353 DEBUG U.UI [main] Start UI.
+2019-02-21 15:38:37,810 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-02-21 15:38:37,812 DEBUG N.Network [Thread-1] Client prijat
+2019-02-21 15:38:37,839 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-02-21 15:38:44,752 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-02-21 15:38:44,764 DEBUG N.Network [Thread-1] Client prijat
+2019-02-21 15:38:44,765 DEBUG N.C.RunningClient [Thread-3] Spojení s clientem běží
+2019-02-21 15:38:54,040 DEBUG N.C.CommandStartCommunication [Thread-2] Přihlášení clienta bylo neúspěšné: aaa
+2019-02-21 15:38:58,951 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: aa
+2019-02-21 15:39:17,956 DEBUG N.C.CommandStartCommunication [Thread-3] Úspěšně přihlášen client: ff
+2019-02-21 15:39:22,958 DEBUG N.C.CommandMessage [Thread-2] Prijata zprava z chatu a rezeslána všem
+2019-02-21 15:39:26,805 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: ff
+2019-02-21 15:39:44,959 DEBUG N.C.CommandStartSearching [Thread-3] Odebrání clienta z fronty na hru: ff
+2019-02-21 15:39:45,579 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: aa
+2019-02-21 15:39:47,129 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: ff
+2019-02-21 15:39:47,131 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: aaxff
+2019-02-21 15:40:01,117 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-02-21 15:40:01,845 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-02-21 15:40:03,261 DEBUG N.C.CommandEndGame [Thread-2] Úspěšně ukončena hra pro :aa
+2019-02-21 15:40:03,262 DEBUG N.C.CommandEndGame [Thread-2] Úspěšně ukončena hra pro :ff
+2019-02-21 15:40:03,294 ERROR N.C.CommandField [Thread-2] Nenalezen hrající hráč s tímto jménem: ff
+2019-02-21 15:40:03,353 ERROR N.C.CommandField [Thread-3] Nenalezen hrající hráč s tímto jménem: aa
+2019-02-21 15:41:39,529 DEBUG N.C.CommandStartSearching [Thread-2] Přidání clienta do front na hru: aa
+2019-02-21 15:41:41,989 DEBUG N.C.CommandStartSearching [Thread-3] Přidání clienta do front na hru: ff
+2019-02-21 15:41:41,990 DEBUG N.M.Matchmaking$1 [Thread-0] Spuštěna hra kde hrají: aaxff
+2019-02-21 15:41:45,834 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-02-21 15:41:46,868 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-02-21 15:41:47,988 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-02-21 15:41:49,329 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-02-21 15:41:50,238 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-02-21 15:41:51,094 DEBUG N.C.CommandField [Thread-3] Přijato a odesláno pro: aa
+2019-02-21 15:41:52,040 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-02-21 15:41:52,841 DEBUG N.C.CommandField [Thread-2] Přijato a odesláno pro: ff
+2019-02-21 15:41:53,699 DEBUG N.C.CommandEndGame [Thread-2] Úspěšně ukončena hra pro :aa
+2019-02-21 15:41:53,700 DEBUG N.C.CommandEndGame [Thread-2] Úspěšně ukončena hra pro :ff
+2019-02-21 15:41:53,726 ERROR N.C.CommandField [Thread-3] Nenalezen hrající hráč s tímto jménem: aa
+2019-02-21 15:41:53,731 ERROR N.C.CommandField [Thread-2] Nenalezen hrající hráč s tímto jménem: ff
+2019-02-21 15:42:52,077 ERROR N.C.RunningClient [Thread-3] Stracení komunikace s clientem: ff java.lang.NullPointerException
+2019-02-21 15:42:56,008 ERROR N.C.RunningClient [Thread-2] Stracení komunikace s clientem: aa java.lang.NullPointerException
+2019-03-28 15:31:44,554 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-03-28 15:31:44,558 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-03-28 15:31:44,571 DEBUG N.Network [Thread-1] Poslouchám
+2019-03-28 15:31:45,396 DEBUG U.UI [main] Start UI.
+2019-03-28 15:31:57,323 DEBUG N.Network [Thread-1] Spuštěn thread pro clienta.
+2019-03-28 15:31:57,324 DEBUG N.Network [Thread-1] Client prijat
+2019-03-28 15:31:57,333 DEBUG N.C.RunningClient [Thread-2] Spojení s clientem běží
+2019-03-28 15:32:08,378 DEBUG N.C.CommandStartCommunication [Thread-2] Přihlášení clienta bylo neúspěšné: aaa
+2019-03-28 15:32:16,565 DEBUG N.C.CommandStartCommunication [Thread-2] Úspěšně přihlášen client: aa
+2019-03-28 15:33:00,159 ERROR N.C.RunningClient [Thread-2] Stracení komunikace s clientem: aa java.lang.NullPointerException
+2019-03-30 16:15:03,193 DEBUG N.C.RegistredClients [main] Nacitani klientu ze souboru
+2019-03-30 16:15:03,197 DEBUG N.C.RegistredClients [main] Načtení clientů ze souboru proběhlo úspěšně.
+2019-03-30 16:15:03,206 DEBUG N.Network [Thread-1] Poslouchám
+2019-03-30 16:15:03,907 DEBUG U.UI [main] Start UI.
