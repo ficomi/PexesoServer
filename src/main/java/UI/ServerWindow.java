@@ -7,6 +7,9 @@ package UI;
 
 import Network.Client.GameClient;
 import Network.Network;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.ArrayList;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -20,6 +23,7 @@ public class ServerWindow extends javax.swing.JFrame {
      * Creates new form ServerWindow
      */
     private final Network NETWORK;
+    private static final Logger logger = LoggerFactory.getLogger(ServerWindow.class);
 
     public ServerWindow() {
         initComponents();
@@ -135,13 +139,13 @@ public class ServerWindow extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(ServerWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+           logger.error("error",ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(ServerWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            logger.error("error",ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(ServerWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            logger.error("error",ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(ServerWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            logger.error("error",ex);
         }
         //</editor-fold>
 
@@ -169,7 +173,7 @@ public class ServerWindow extends javax.swing.JFrame {
         if (!list.isEmpty() && list!=null) {
        
             for (GameClient client : list) {
-            s += client.getClient().getName() + "\n";
+            s += client.getName() + "\n";
         }
         }
          
@@ -181,7 +185,7 @@ public class ServerWindow extends javax.swing.JFrame {
         if (!list.isEmpty() && list != null) {
           
             for (GameClient client : list) {
-                s += client.getClient().getName() + "\n";
+                s += client.getName() + "\n";
 
             }
         }

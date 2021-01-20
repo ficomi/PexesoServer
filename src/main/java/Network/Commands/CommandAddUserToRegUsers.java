@@ -8,11 +8,12 @@ package Network.Commands;
 import Network.Matchmaking.Matchmaking;
 import Network.Client.RegistredClients;
 import Network.Client.RunningClient;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
 import java.io.PrintWriter;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import java.util.logging.Level;
 
 
 /**
@@ -21,7 +22,7 @@ import org.slf4j.LoggerFactory;
  * @author Miloslav Fico
  */
 public class CommandAddUserToRegUsers implements ICommands {
-    private final Logger logger = LoggerFactory.getLogger(getClass());
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
     private final String NAME = StringCommands.ADDUSER.toString().toUpperCase();
 
     @Override
@@ -29,13 +30,14 @@ public class CommandAddUserToRegUsers implements ICommands {
         
           
         
-            if (!regClients.isRegisteredClient(values[1])) {
-                regClients.addClinetToRegClients(values[1], values[2]);
-               logger.debug("Registrace clienta "+values[1]+" je úspěšná.");
-                return "REG/OK";
-            }
-            logger.debug("Registrace neproběhla úspěšně.");
-            return "REG/NOK";
+
+                if (regClients.addClinetToRegClients(values[1], values[2])){
+                    logger.debug("Registrace clienta "+values[1]+" je úspěšná.");
+                    return "REG/OK";
+
+                }
+               return "REG/NOK";
+
            }
       
 

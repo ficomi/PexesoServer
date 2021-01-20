@@ -12,10 +12,10 @@ package Network.Commands;
 public enum StringCommands {
     STARTCOM,
     ADDUSER,
-    RECMSG,
     EGAME,
     SSEARCH,
-    UPDATE,
     SENDMSG,
-    FIELD;
+    FIELD,
+    LOG,
+    STARTENCRYPT
 }

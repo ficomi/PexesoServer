@@ -8,10 +8,13 @@ package Network.Commands;
 import Network.Matchmaking.Matchmaking;
 import Network.Client.RegistredClients;
 import Network.Client.RunningClient;
-import java.io.BufferedReader;
-import java.io.PrintWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.io.BufferedReader;
+import java.io.PrintWriter;
+import java.util.logging.Level;
+
 
 /**
  * Tato třída reprezentuje co se stane když příjde příkaz SENDMSG.
@@ -19,7 +22,7 @@ import org.slf4j.LoggerFactory;
  * @author Miloslav Fico
  */
 public class CommandMessage implements ICommands{
-     private final Logger logger = LoggerFactory.getLogger(getClass());
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
     private static final String NAME = StringCommands.SENDMSG.toString().toUpperCase();
     
     @Override

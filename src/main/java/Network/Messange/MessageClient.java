@@ -6,6 +6,8 @@
 package Network.Messange;
 
 
+import Security.Communication;
+
 import java.io.PrintWriter;
 
 /**
@@ -27,8 +29,8 @@ public class MessageClient {
         return writer;
     } 
     
-    public void sentMessage(String message){
-     writer.println("RECMSG/"+message+";");
+    public void sentMessage(String message) throws Exception{
+     writer.println(Communication.stringEncrypt("RECMSG/"+message+";"));
      writer.flush();
     }
 }

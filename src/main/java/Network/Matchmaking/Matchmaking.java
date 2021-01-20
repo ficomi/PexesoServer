@@ -6,19 +6,23 @@
 package Network.Matchmaking;
 
 
-import Network.Client.Client;
+import Database.Entities.Client;
 import Network.Client.GameClient;
 import Network.Client.RegistredClients;
 
 import Network.Network;
+import Security.Communication;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.BufferedReader;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
 
 import java.util.concurrent.ConcurrentHashMap;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import java.util.logging.Level;
+
 
 /**
  * Třída která se stárá o clienty hledající hru, aktuálně přihlášené clienty a thready spuštěných her.
@@ -28,7 +32,7 @@ import org.slf4j.LoggerFactory;
 
 
 public class Matchmaking {
-    private final Logger logger = LoggerFactory.getLogger(getClass());
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
     private ArrayList<GameClient> searchingClients;
     private ArrayList<GameClient> playingClients;
     private ArrayList<String> activeClient;
@@ -46,45 +50,43 @@ public class Matchmaking {
         searchForGame();
     }
 
-    public synchronized void addClientToSearch(GameClient client) {
-        if (!searchingClients.contains(client)) {
-            searchingClients.add(client);
-            sortClients();
-        }
-    }
 
     public synchronized void addClientToSearch(Client client, PrintWriter writer, BufferedReader reader) {
-        if (!searchingClients.stream().anyMatch(v -> v.getClient().equals(client))) {
-            searchingClients.add(new GameClient(client, writer, reader));
+        if (!searchingClients.stream().anyMatch(v -> v.getName().equals(client.getName()))) {
+            searchingClients.add(new GameClient(writer, reader, client.getPasswd(),client.getElo(), client.getSalt(), client.getName()));
             sortClients();
         }
+
+    }
+
+    public synchronized int getIdByName(String name) {
+        return searchingClients.stream().filter(v -> name.equals(v.getName())).findAny().get().getId();
 
     }
 
     public synchronized GameClient getClientFromSearch(String name) {
-        return searchingClients.stream().filter(v -> v.getClient().getName().equals(name)).findAny().get();
+        return searchingClients.stream().filter(v -> v.getName().equals(name)).findAny().get();
     }
 
     public synchronized void removeClientFromSearch(GameClient client) {
         searchingClients.remove(client);
         sortClients();
     }
-    
-    public synchronized GameClient getPlayingClientByName(String name){
-        if (isClientPlaying(name)) {
-            return playingClients.stream().filter(v -> name.equals(v.getClient().getName())).findAny().get();
-        }
-    return null;
+
+    public synchronized GameClient getPlayingClientByName(String name) {
+
+        return playingClients.stream().filter(v -> name.equals(v.getName())).findAny().get();
+
     }
-    
-    public synchronized boolean isClientPlaying (String name){
-    return playingClients.stream().anyMatch(v -> name.equals(v.getClient().getName())); 
+
+    public synchronized boolean isClientPlaying(String name) {
+        return playingClients.stream().anyMatch(v -> v.equals(name));
     }
-    
-    public synchronized void removePlayingClient(String name){
-        if (isClientPlaying(name)) {
-            playingClients.remove(getPlayingClientByName(name));
-        }
+
+    public synchronized void removePlayingClient(String name) {
+
+        playingClients.remove(getPlayingClientByName(name));
+
     }
 
     public synchronized Thread getGameThread(String name) {
@@ -100,23 +102,28 @@ public class Matchmaking {
             @Override
             public void run() {
                 while (network.getIsRunning()) {
-                    if (searchingClients.size() % 2 == 0 && searchingClients.size() != 0) {
-                        String name = searchingClients.get(0).getClient().getName() + "x" + searchingClients.get(1).getClient().getName();
-                        
-                        logger.debug("Spuštěna hra kde hrají: " + name);
-                        
-                        playingClients.add(searchingClients.get(0));
-                        playingClients.add(searchingClients.get(1));
-                        
-                        searchingClients.get(0).getWriter().println("SGAME/" + searchingClients.get(1).getClient().getName()+ "/" + searchingClients.get(1).getClient().getElo()+ "/true/;\r\n");
-                        searchingClients.get(1).getWriter().println("SGAME/" + searchingClients.get(0).getClient().getName()+ "/" + searchingClients.get(0).getClient().getElo()+ "/false/;\r\n");
-                        regClients.getMesClients().removeMessageClient(searchingClients.get(0).getClient().getName());
-                        regClients.getMesClients().removeMessageClient(searchingClients.get(1).getClient().getName());
-                        
-                        searchingClients.remove(0);
-                        searchingClients.remove(0);
-                        
+                    try {
+                        if (searchingClients.size() % 2 == 0 && searchingClients.size() != 0) {
+                            String name = searchingClients.get(0).getName() + "x" + searchingClients.get(1).getName();
+
+                            logger.debug("Spuštěna hra kde hrají: " + name);
+
+                            playingClients.add(searchingClients.get(0));
+                            playingClients.add(searchingClients.get(1));
+
+                            searchingClients.get(0).getWriter().println(Communication.stringEncrypt("SGAME/" + searchingClients.get(1).getName() + "/" + searchingClients.get(1).getElo() + "/true/;"));
+                            searchingClients.get(1).getWriter().println(Communication.stringEncrypt("SGAME/" + searchingClients.get(0).getName() + "/" + searchingClients.get(0).getElo() + "/false/;"));
+                            regClients.getMesClients().removeMessageClient(searchingClients.get(0).getName());
+                            regClients.getMesClients().removeMessageClient(searchingClients.get(1).getName());
+
+                            searchingClients.remove(0);
+                            searchingClients.remove(0);
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
                     }
+
+
                 }
             }
         });
@@ -143,7 +150,7 @@ public class Matchmaking {
     public synchronized void removeActivePlayer(String Name) {
         if (isActivePlayer(Name)) {
             activeClient.remove(Name);
-        }  
+        }
     }
 
     public synchronized ArrayList<String> getActiveClients() {
@@ -153,5 +160,5 @@ public class Matchmaking {
     public ArrayList<GameClient> getPlayingClients() {
         return playingClients;
     }
-    
+
 }

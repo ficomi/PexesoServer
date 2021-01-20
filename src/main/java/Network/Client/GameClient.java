@@ -5,7 +5,7 @@
  */
 package Network.Client;
 
-import java.net.Socket;
+import Database.Entities.Client;
 import java.io.PrintWriter;
 import java.io.BufferedReader;
 
@@ -13,24 +13,27 @@ import java.io.BufferedReader;
  *  Třída GameClienta ve kterém je uložen client a jeho BufferedReader příjmu zpráv a PrintWriter pro odesílaní zprav.
  * @author Miloslav Fico
  */
-public class GameClient implements Comparable<GameClient>{
+public class GameClient extends Client implements Comparable<GameClient>{
 
-    Client client;
+
     PrintWriter writer;
     BufferedReader reader;
-    Socket socketIn;
-    
-    
-    
-    public GameClient(Client client,PrintWriter writer,BufferedReader reader) {
-       this.client=client;
-        this.writer = writer;
-        this.reader = reader; 
-     
-    }
-    
-   
 
+
+    public GameClient(PrintWriter writer, BufferedReader reader, byte[] passwd,int elo, byte[] salt, String name) {
+        super(passwd, salt, name);
+        this.writer = writer;
+        this.reader = reader;
+        setElo(elo);
+    } 
+    
+    public void setReader(BufferedReader reader) {
+        this.reader = reader;
+    }
+
+    public void setWriter(PrintWriter writer) {
+        this.writer = writer;
+    }
  
     public PrintWriter getWriter() {
         return writer;
@@ -40,14 +43,12 @@ public class GameClient implements Comparable<GameClient>{
         return reader;
     }
 
-    public Client getClient() {
-        return client;
-    }
+
     
   @Override
   public int compareTo(GameClient u) {
-      int compereElo = u.getClient().getElo();
-    return compereElo - this.client.getElo(); // Od nejvyssiho
+      int compereElo = u.getElo();
+    return compereElo - this.getElo(); // Od nejvyssiho
   }
 }  
     

@@ -11,25 +11,27 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Propojení grafického rozhraní se serverem.
+ *
  * @author Miloslav Fico
  */
-public class UI{
-     private final Logger logger = LoggerFactory.getLogger(getClass());
+public class UI {
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
     private final Network NETWORK;
     private final ServerWindow serWindow;
+
     public UI(Network network) {
-        NETWORK=network;
-        
+        NETWORK = network;
+
         serWindow = new ServerWindow(NETWORK);
         logger.debug("Start UI.");
         startUI();
-        
+
     }
-    
-    private void startUI(){
-   serWindow.setVisible(true);
-   serWindow.displayInfo();
-   }
-    
-    
+
+    private void startUI() {
+        serWindow.setVisible(true);
+        serWindow.displayInfo();
+    }
+
+
 }

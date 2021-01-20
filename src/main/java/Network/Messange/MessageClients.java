@@ -43,9 +43,14 @@ public class MessageClients {
     }
 
     public  synchronized void sentToAllMessageClients(String message){
-        for (String name : messageClients.keySet()) {
-            messageClients.get(name).sentMessage(message);
+        try {
+            for (String name : messageClients.keySet()) {
+                messageClients.get(name).sentMessage(message);
+            }
+        }catch (Exception e){
+            e.printStackTrace();
         }
+
     }
     
 }

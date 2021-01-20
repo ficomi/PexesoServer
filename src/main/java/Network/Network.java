@@ -8,13 +8,19 @@ package Network;
 import Network.Matchmaking.Matchmaking;
 import Network.Client.RegistredClients;
 import Network.Client.RunningClient;
+import Security.Communication;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.util.ArrayList;
 
 import java.net.Socket;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import java.security.NoSuchAlgorithmException;
+import java.util.Base64;
+import java.util.logging.Level;
+
 
 /**
  * Třída která každé příchozí spojení akceptuje a přidělí mui vlastni thread
@@ -24,7 +30,7 @@ import org.slf4j.LoggerFactory;
  */
 public class Network implements Runnable {
 
-    private final Logger logger = LoggerFactory.getLogger(getClass());
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
     private RegistredClients regClients;
     private ServerSocket serSocket;
     private boolean isRunnig;
@@ -44,7 +50,13 @@ public class Network implements Runnable {
         } catch (IOException e) {
             //nepodarilo se vytvorit server
         }
+        try {
+            Communication.createKeys("RSA","AES", 2048,128);
 
+        } catch (NoSuchAlgorithmException e) {
+            logger.error("Chyba při vytvoření klíčů ",e);
+        }
+       
         matchmaking = new Matchmaking(this);
 
     }
@@ -69,7 +81,7 @@ public class Network implements Runnable {
                         client.clear();
                     }
                 } catch (IOException e) {
-                    logger.error("Error: " + e);
+                    logger.debug("Error: ",e);
                 }
 
             }
@@ -81,7 +93,7 @@ public class Network implements Runnable {
     private void recClient() {
 
         clients.add(new Thread(new RunningClient(client, this, regClients, matchmaking)));
-        logger.debug("Spuštěn thread pro clienta.");
+    logger.debug("Spuštěn thread pro clienta.");
         clients.get(clients.size() - 1).start();
 
     }
